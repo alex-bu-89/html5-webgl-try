@@ -1,0 +1,22 @@
+#canvas,
+#canvas2,
+#canvas3 {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.infoWrap {
+    width:400px;
+    margin: 0 auto;
+    text-align: center;
+}
+body {
+    text-align: center;
+}
+.activ,
+.activ:hover {
+    color: #999;
+}
+.wrap {
+    margin-top: 40px;
+}

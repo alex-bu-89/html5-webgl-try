@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CG2 Uebung 1</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<script src="js/bird.js"></script>
+</head>
+<body>
+	<div class="infoWrap text-center">
+		<h1>Rotate img</h1>
+		<p class=""><a href="../">Tasks</a> / Rotate img</p>
+		<p class="bg-info">press 'L' to rotate left | press 'R' to rotate right</p>
+		<a href="index.html">example 1 (disk)</a> |
+		<a href="disk.html">example 2 (disk)</a> |
+		<a href="bird.html">example 3 (bird)</a>
+	</div>
+	<div style="margin-left: -100px" class="wrap">
+    	<img id="disc">
+	</div>	
+</body>
+<script>
+	// if document is ready
+	document.onreadystatechange = function () {
+	    if (document.readyState == "complete") {
+	        init();
+	    }
+	}
+</script>
+</html>
